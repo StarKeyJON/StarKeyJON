@@ -7,7 +7,6 @@ class Attributes(StarKeyJON):
 	    name     = "J.O.N."
 	    discord  = "602a6000f3#4317"
 	    telegram = "t.me/blockchainJON"
-	    proton   = "starkeyjon@protonmail.com"
 	    email    = "email@jonthedev.com"
 	    
 	    return name, discord, telegram, proton
