@@ -15,7 +15,7 @@ class Attributes(StarKeyJON):
 	def life() -> tuple:
 		langs         = ['English', 'Spanish', 'French']
 		nationalities = self.langs.remove('French', 'Spanish', 'English').append('USofA')
-		age           = 35
+		age           = redacted
 		
 		return langs, nationalities, age
 	
