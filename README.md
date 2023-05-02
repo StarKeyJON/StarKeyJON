@@ -4,11 +4,13 @@
 class Attributes(StarKeyJON):
 	@staticmethod
 	def contact() -> tuple:
+	    name     = "J.O.N."
 	    discord  = "602a6000f3#4317"
 	    telegram = "t.me/blockchainJON"
 	    proton   = "starkeyjon@protonmail.com"
+	    email    = "email@jonthedev.com"
 	    
-	    return discord, telegram, proton
+	    return name, discord, telegram, proton
 	
 	@staticmethod
 	def life() -> tuple:
