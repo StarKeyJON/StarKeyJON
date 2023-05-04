@@ -22,14 +22,14 @@ class Attributes(StarKeyJON):
 	@staticmethod
 	def coding() -> tuple:
 		langs = {
-      'expert': ['python', 'solidity', 'yul'],
+      			'expert': ['python', 'solidity', 'yul'],
 			'advanced':   ['rust', 'typescript/javascript', 'wasm'],
 			'intermediate': ['go', 'c', 'c++'],
 			'learning': ['c#', 'java', 'cobol', 'r']
 		}
-		specialities  = ['web/app reverse engineering', 'web3', 'software', 'fullstack']
+		specialities  = ['ML/AI', 'web/app reverse engineering', 'web3', 'software design', 'fullstack']
 		environnement = ['vscode', 'vim', 'text editor']
-    interests = ['cryptography', 'dApps', 'ML/AI', 'communications']
+	        interests = ['cryptography', 'dApps', 'ML/AI', 'communications']
 		
 		return langs, specialities, environnement
 
