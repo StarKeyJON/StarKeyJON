@@ -9,7 +9,7 @@ class Attributes(StarKeyJON):
 	    telegram = "t.me/blockchainJON"
 	    email    = "email@jonthedev.com"
 	    
-	    return name, discord, telegram, proton
+	    return name, discord, telegram, email
 	
 	@staticmethod
 	def life() -> tuple:
