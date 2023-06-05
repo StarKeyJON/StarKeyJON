@@ -28,10 +28,10 @@ class Attributes(StarKeyJON):
 			'learning': ['c#', 'java', 'cobol', 'r']
 		}
 		specialities  = ['ML/AI', 'web/app reverse engineering', 'web3', 'software design', 'fullstack']
-		environnement = ['vscode', 'vim', 'text editor']
+		env = ['vscode', 'vim', 'text editor']
 	        interests = ['cryptography', 'dApps', 'ML/AI', 'communications']
 		
-		return langs, specialities, environnement
+		return langs, specialities, env, interests
 
 ```
 ![StarKeyJON's GitHub stats](https://github-readme-stats.vercel.app/api?username=StarKeyJON&show_icons=true&theme=radical)
